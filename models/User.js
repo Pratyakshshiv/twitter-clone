@@ -9,6 +9,6 @@ const UserSchema = new Schema({
   username: String,
 });
 
-const User = models?.User || model("User", UserSchema);
+const User = model("User", UserSchema);
 
 export default User;
